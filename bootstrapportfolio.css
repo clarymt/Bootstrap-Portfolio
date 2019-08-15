@@ -6,6 +6,44 @@ p {
     font-family: 'PT Sans', sans-serif;
 }
 
-img {
-    padding: 50px
+.figcaption {
+    float: left;
+    position: absolute;
+    text-align: center;
+    margin-top: 135px;
+    background-image: linear-gradient( rgb(255, 17, 97), rgb(34, 184, 176));
+    border-style: outset;
+    border-color: black;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 35px
 }
+
+img {
+    border-style: inset;
+    border-color: rgb(56, 142, 255);
+    padding: 0px
+}
+
+$grid-columns:      12;
+$grid-gutter-width: 30px;
+
+$grid-breakpoints: (
+  // Extra small screen / phone
+  xs: 0,
+  // Small screen / phone
+  sm: 576px,
+  // Medium screen / tablet
+  md: 768px,
+  // Large screen / desktop
+  lg: 992px,
+  // Extra large screen / wide desktop
+  xl: 1200px
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px
+);      
+

@@ -6,7 +6,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Bootstrap 101 Template</title>
+  <title>Bootstrap Portfolio</title>
 
   <!-- Bootstrap CDN -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -50,27 +50,63 @@
          <span class="border border-danger rounded shadow-lg p-3 mb-5 p-3 mb-2 bg-secondary text-white" class="rounded-right">
           <div class="col-md-12">
             <div class="page-header">
-              <h1>About Me</h1>
+              <h1>Contact</h1>
             </div>
             <div class="row">
-               <div class="col-md-3">
-            <img src="C:/Users/clary/Desktop/Homework/Bootstrap-Portfolio/images/profile.jpg" alt="Placeholder" class="img-thumbnail">
-              </div>
-              <div class="col-md-9">
-                <p>
-                        Hey it's me! Where to begin with this boxed paragraph of self-indulgence? Hmmm... Let's start from right now. I am currently typing up a page with about 30% of the complete idea as to how this finish this assignment correctly. I'm enthusiastic to be doing this with my Friday afternoon daydreaming about the future! I'll let you in on a little secret...I really want a Corvette, my current job wont supplement the bones to put up for that. Speaking of, I was supposed to spray weed control on the University of Richmond today, but it rained this AM.</p1>
-                        <br>
-                        <br>
-                        As you can see, I'm on top of a mountain...it's kinda my "schtick." I hiked the Appalchian Trail in 2018. Yup.
-                        <br>
-                        <br>
-                        2,190.9 miles over the course of 5 1/2 months from Georgia to Maine!</p>
-                </p>
+              <div class="container-fluid">
+              
+              
+              <div class="col-md-12">
+                <form>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Name</label>
+                    <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="nameHelp" placeholder="Enter name">
+                    <small id="nameHelp" class="form-text text-muted">We'll never share your name with anyone else.</small>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputMessage1">Message</label>
+                    <input type="Message" class="form-control" id="exampleInputMessage1" placeholder="Message">
+                  </div>
+                  <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+              </div> 
               </span>
             </div>
             </div>
           </div>
-        
+         
+          
+          $grid-columns:      12;
+          $grid-gutter-width: 30px;
+          
+          $grid-breakpoints: (
+            // Extra small screen / phone
+            xs: 0,
+            // Small screen / phone
+            sm: 576px,
+            // Medium screen / tablet
+            md: 768px,
+            // Large screen / desktop
+            lg: 992px,
+            // Extra large screen / wide desktop
+            xl: 1200px
+          );
+          
+          $container-max-widths: (
+            sm: 540px,
+            md: 720px,
+            lg: 960px,
+            xl: 1140px
+          ); 
     
       <!-- jQuery CDN -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
