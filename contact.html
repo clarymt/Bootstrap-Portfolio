@@ -9,14 +9,16 @@
   <title>Bootstrap Portfolio</title>
 
   <!-- Bootstrap CDN -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  
-  <link href="https://fonts.googleapis.com/css?family=Cutive+Mono|PT+Sans&display=swap" rel="stylesheet">
-  
-  <link rel = "stylesheet"
+   <link rel = "stylesheet"
   type = "text/css"
   href = "bootstrapportfolio.css" />
 
+  <link href="https://fonts.googleapis.com/css?family=Cutive+Mono|PT+Sans&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+  
+ 
 </head>
 
 <body background="C:/Users/clary/Desktop/Homework/Bootstrap-Portfolio/images/background.jpg">
@@ -47,20 +49,18 @@
 
     <div class="container">
         <div class="row">
-         <span class="border border-danger rounded shadow-lg p-3 mb-5 p-3 mb-2 bg-secondary text-white" class="rounded-right">
+         <span id="contactspan" class="border border-danger rounded shadow-lg p-3 mb-5 p-3 mb-2 bg-secondary text-white" class="rounded-right">
           <div class="col-md-12">
             <div class="page-header">
               <h1>Contact</h1>
-            </div>
             <div class="row">
               <div class="container-fluid">
               
               
-              <div class="col-md-12">
                 <form>
                   <div class="form-group">
-                    <label for="exampleInputEmail1">Name</label>
-                    <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="nameHelp" placeholder="Enter name">
+                    <label for="exampleInputName1">Name</label>
+                    <input type="name" class="form-control" id="exampleInputName1" aria-describedby="nameHelp" placeholder="Enter name">
                     <small id="nameHelp" class="form-text text-muted">We'll never share your name with anyone else.</small>
                   </div>
                   <div class="form-group">
@@ -80,33 +80,12 @@
                 </form>
               </div> 
               </span>
-            </div>
+          
             </div>
           </div>
          
           
-          $grid-columns:      12;
-          $grid-gutter-width: 30px;
-          
-          $grid-breakpoints: (
-            // Extra small screen / phone
-            xs: 0,
-            // Small screen / phone
-            sm: 576px,
-            // Medium screen / tablet
-            md: 768px,
-            // Large screen / desktop
-            lg: 992px,
-            // Extra large screen / wide desktop
-            xl: 1200px
-          );
-          
-          $container-max-widths: (
-            sm: 540px,
-            md: 720px,
-            lg: 960px,
-            xl: 1140px
-          ); 
+       
     
       <!-- jQuery CDN -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
